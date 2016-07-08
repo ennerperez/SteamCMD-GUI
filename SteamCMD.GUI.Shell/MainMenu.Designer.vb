@@ -182,7 +182,7 @@ Partial Class MainMenu
         '
         'OpenFolderButton
         '
-        Me.OpenFolderButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Folder
+        Me.OpenFolderButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Folder
         resources.ApplyResources(Me.OpenFolderButton, "OpenFolderButton")
         Me.OpenFolderButton.Name = "OpenFolderButton"
         Me.OpenFolderButton.TabStop = False
@@ -256,7 +256,7 @@ Partial Class MainMenu
         '
         'IdHelpButton
         '
-        Me.IdHelpButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Help
+        Me.IdHelpButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Help
         resources.ApplyResources(Me.IdHelpButton, "IdHelpButton")
         Me.IdHelpButton.Name = "IdHelpButton"
         Me.IdHelpButton.TabStop = False
@@ -438,14 +438,14 @@ Partial Class MainMenu
         '
         'AddButton
         '
-        Me.AddButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Add
+        Me.AddButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Add
         resources.ApplyResources(Me.AddButton, "AddButton")
         Me.AddButton.Name = "AddButton"
         Me.AddButton.UseVisualStyleBackColor = True
         '
         'SaveButton
         '
-        Me.SaveButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Save
+        Me.SaveButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Save
         resources.ApplyResources(Me.SaveButton, "SaveButton")
         Me.SaveButton.Name = "SaveButton"
         Me.SaveButton.UseVisualStyleBackColor = True
@@ -553,7 +553,7 @@ Partial Class MainMenu
         'ModHelpButton
         '
         Me.ModHelpButton.BackColor = System.Drawing.Color.Transparent
-        Me.ModHelpButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Help
+        Me.ModHelpButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Help
         resources.ApplyResources(Me.ModHelpButton, "ModHelpButton")
         Me.ModHelpButton.Name = "ModHelpButton"
         Me.ModHelpButton.TabStop = False
@@ -612,7 +612,7 @@ Partial Class MainMenu
         '
         'SrcdsExePathOpen
         '
-        Me.SrcdsExePathOpen.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Folder
+        Me.SrcdsExePathOpen.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Folder
         resources.ApplyResources(Me.SrcdsExePathOpen, "SrcdsExePathOpen")
         Me.SrcdsExePathOpen.Name = "SrcdsExePathOpen"
         Me.SrcdsExePathOpen.TabStop = False
@@ -652,35 +652,35 @@ Partial Class MainMenu
         '
         'ConsoleConnect
         '
-        Me.ConsoleConnect.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Connect
+        Me.ConsoleConnect.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Connect
         resources.ApplyResources(Me.ConsoleConnect, "ConsoleConnect")
         Me.ConsoleConnect.Name = "ConsoleConnect"
         Me.ConsoleConnect.UseVisualStyleBackColor = True
         '
         'ConsoleIPPrint
         '
-        Me.ConsoleIPPrint.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Server
+        Me.ConsoleIPPrint.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Server
         resources.ApplyResources(Me.ConsoleIPPrint, "ConsoleIPPrint")
         Me.ConsoleIPPrint.Name = "ConsoleIPPrint"
         Me.ConsoleIPPrint.UseVisualStyleBackColor = True
         '
         'ConsoleClearLog
         '
-        Me.ConsoleClearLog.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Clear
+        Me.ConsoleClearLog.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Clear
         resources.ApplyResources(Me.ConsoleClearLog, "ConsoleClearLog")
         Me.ConsoleClearLog.Name = "ConsoleClearLog"
         Me.ConsoleClearLog.UseVisualStyleBackColor = True
         '
         'ConsoleOpenLog
         '
-        Me.ConsoleOpenLog.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Folder
+        Me.ConsoleOpenLog.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Folder
         resources.ApplyResources(Me.ConsoleOpenLog, "ConsoleOpenLog")
         Me.ConsoleOpenLog.Name = "ConsoleOpenLog"
         Me.ConsoleOpenLog.UseVisualStyleBackColor = True
         '
         'ConsoleSaveLog
         '
-        Me.ConsoleSaveLog.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Save
+        Me.ConsoleSaveLog.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Save
         resources.ApplyResources(Me.ConsoleSaveLog, "ConsoleSaveLog")
         Me.ConsoleSaveLog.Name = "ConsoleSaveLog"
         Me.ConsoleSaveLog.UseVisualStyleBackColor = True
@@ -849,7 +849,7 @@ Partial Class MainMenu
         '
         'DonateButton
         '
-        Me.DonateButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.PPDonateButton
+        Me.DonateButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.PPDonateButton
         resources.ApplyResources(Me.DonateButton, "DonateButton")
         Me.DonateButton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DonateButton.Name = "DonateButton"

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SteamCMD.GUI.Shell", "SteamCMD.GUI.Shell\SteamCMD.GUI.Shell.vbproj", "{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamCMD.GUI.Core", "SteamCMD.GUI.Core\SteamCMD.GUI.Core.csproj", "{7F3CF87C-6752-4417-9FB6-6544B2D1727A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".files", ".files", "{600FCE08-3C22-4869-B76F-DD0644D3F219}"
+	ProjectSection(SolutionItems) = preProject
+		.editoricon.png = .editoricon.png
+		.gitignore = .gitignore
+		AppIcon.ico = AppIcon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{A4046760-032C-4C51-9643-A2DA4C32F6C5}"
+	ProjectSection(SolutionItems) = preProject
+		AUTHORS.md = AUTHORS.md
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Debug|x86.ActiveCfg = Debug|x86
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Debug|x86.Build.0 = Debug|x86
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Release|Any CPU.ActiveCfg = Release|x86
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Release|x86.ActiveCfg = Release|x86
+		{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}.Release|x86.Build.0 = Release|x86
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F3CF87C-6752-4417-9FB6-6544B2D1727A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

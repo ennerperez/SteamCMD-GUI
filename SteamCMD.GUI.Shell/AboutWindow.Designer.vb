@@ -18,7 +18,7 @@ Partial Class AboutWindow
     Private components As System.ComponentModel.IContainer
 
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
-    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'Se puede modificar usando el Diseñador de Windows Forms.
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
@@ -78,7 +78,7 @@ Partial Class AboutWindow
         '
         'LicenseURL
         '
-        Me.LicenseURL.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.CCLicense
+        Me.LicenseURL.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.CCLicense
         resources.ApplyResources(Me.LicenseURL, "LicenseURL")
         Me.LicenseURL.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LicenseURL.Name = "LicenseURL"
@@ -86,7 +86,7 @@ Partial Class AboutWindow
         '
         'PictureBox2
         '
-        Me.PictureBox2.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.SteamCMDGUI_Logo
+        Me.PictureBox2.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.SteamCMDGUI_Logo
         resources.ApplyResources(Me.PictureBox2, "PictureBox2")
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.TabStop = False

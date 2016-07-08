@@ -36,7 +36,7 @@ Partial Class CommandLineOptionsWindow
         '
         resources.ApplyResources(Me.CommandHelpButton, "CommandHelpButton")
         Me.CommandHelpButton.BackColor = System.Drawing.Color.Transparent
-        Me.CommandHelpButton.BackgroundImage = Global.SteamCMD_GUI.My.Resources.Resources.Help
+        Me.CommandHelpButton.BackgroundImage = Global.SteamCMD.GUI.Shell.My.Resources.Resources.Help
         Me.CommandHelpButton.Name = "CommandHelpButton"
         Me.CommandHelpButton.TabStop = False
         Me.CommandHelpButton.UseVisualStyleBackColor = False

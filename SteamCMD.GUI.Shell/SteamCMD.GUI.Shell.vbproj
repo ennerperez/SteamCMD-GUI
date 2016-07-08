@@ -8,13 +8,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8D3A8941-3CF2-4678-89B5-C866CE7FD4AB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>SteamCMD_GUI.My.MyApplication</StartupObject>
-    <RootNamespace>SteamCMD_GUI</RootNamespace>
-    <AssemblyName>SteamCMD GUI</AssemblyName>
+    <StartupObject>SteamCMD.GUI.Shell.My.MyApplication</StartupObject>
+    <RootNamespace>SteamCMD.GUI.Shell</RootNamespace>
+    <AssemblyName>SteamCMD-GUI</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -23,7 +24,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SteamCMD GUI.xml</DocumentationFile>
+    <DocumentationFile>SteamCMD-GUI.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
@@ -34,7 +35,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SteamCMD GUI.xml</DocumentationFile>
+    <DocumentationFile>SteamCMD-GUI.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -50,7 +51,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\Icons\SteamCMDGUI_Icon.ico</ApplicationIcon>
+    <ApplicationIcon>..\AppIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -141,6 +142,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -160,14 +162,24 @@
     <None Include="Resources\Icons\Help.png" />
     <None Include="Resources\Icons\Save.png" />
     <None Include="Resources\Icons\Add.png" />
-    <None Include="Resources\Icons\SteamCMDGUI_Icon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\AppIcon.ico">
+      <Link>AppIcon.ico</Link>
+    </Content>
     <Content Include="Resources\Icons\Clear.png" />
     <Content Include="Resources\Icons\Connect.png" />
+    <Content Include="Resources\Icons\Server.png" />
+    <Content Include="Resources\PPDonateButton.gif" />
     <Content Include="Resources\SteamCMDGames.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SteamCMD.GUI.Core\SteamCMD.GUI.Core.csproj">
+      <Project>{7f3cf87c-6752-4417-9fb6-6544b2d1727a}</Project>
+      <Name>SteamCMD.GUI.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
